@@ -1,0 +1,9 @@
+doctype html
+html
+  head
+    title AlgorichUtils
+    = stylesheet_link_tag    "algorich_utils/application", media: "all" %
+    = javascript_include_tag "algorich_utils/application" %
+    = csrf_meta_tags %
+  body
+    = yield
